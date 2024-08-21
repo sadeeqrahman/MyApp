@@ -91,7 +91,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.oma.beyondpayment.myapp"
             artifactId = "MyApp"
-            version = "1.0.2"
+            version = "1.0.4"
 
 
             pom {
