@@ -91,13 +91,13 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.oma.beyondpayment.myapp"
             artifactId = "MyApp"
-            version = "1.0.0"
+            version = "1.0.1"
 
 
             pom {
                 name.set("OMAFaceLivelinessSdk")
                 description.set("A library for detecting face liveliness.")
-                url.set("https://github.com/sadeeqrahman/OMAFaceLivelinessSdk")
+                url.set("https://github.com/sadeeqrahman/MyApp")
 
                 licenses {
                     license {
@@ -115,8 +115,8 @@ publishing {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/sadeeqrahman/OMAFaceLivelinessSdk.git")
-                    developerConnection.set("scm:git:ssh://github.com:sadeeqrahman/OMAFaceLivelinessSdk.git")
+                    connection.set("scm:git:git://github.com/sadeeqrahman/MyApp.git")
+                    developerConnection.set("scm:git:ssh://github.com:sadeeqrahman/MyApp.git")
                     url.set("https://github.com/sadeeqrahman/OMAFaceLivelinessSdk")
                 }
             }
